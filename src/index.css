@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input{
+    box-shadow: 0px 2px 2px #1d2841;
+}
+form button{
+    border: 1px solid rgba(255, 255, 255, 0.066);
+    transition: 0.6s;
+}
+.completed{
+    text-decoration: line-through;
+}
